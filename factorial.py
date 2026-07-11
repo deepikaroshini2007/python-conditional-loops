@@ -1,8 +1,8 @@
-n=int(input(&quot;enter the number=&quot;))
+n=int(input("enter the number="))
 fact=1
-if n&lt;0:
-print(&quot;Factorial not possible&quot;)
+if n<0:
+    print("Factorial not possible")
 else:
-for i in range(1,n+1):
-fact=fact*i
-print(&quot;The factorial of&quot;,n,&quot;is&quot;,fact)
+    for i in range(1,n+1):
+        fact=fact*i
+    print("The factorial of",n,"is",fact)
