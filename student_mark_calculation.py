@@ -1,24 +1,24 @@
-m1=int(input(&quot;enter mark 1:&quot;))
-m2=int(input(&quot;enter mark 2:&quot;))
-m3=int(input(&quot;enter mark 3:&quot;))
-m4=int(input(&quot;enter mark 4:&quot;))
-m5=int(input(&quot;enter mark 5:&quot;))
+m1=int(input("enter mark 1:"))
+m2=int(input("enter mark 2:"))
+m3=int(input("enter mark 3:"))
+m4=int(input("enter mark 4:"))
+m5=int(input("enter mark 5:"))
 total=m1+m2+m3+m4+m5
 per=total/5
-print(&quot;The aggregate(total)=&quot;,total)
-print(&quot;Percentage =&quot;,per)
-if per&gt;=90:
-
-print(&quot;Grade is O&quot;)
-elif per&gt;=80 and per&lt;90:
-print(&quot;Grade is A+&quot;)
-elif per&gt;=70 and per&lt;80:
-print(&quot;Grade is A&quot;)
-elif per&gt;=60 and per&lt;70:
-print(&quot;Grade is B+&quot;)
-elif per&gt;=55 and per&lt;60:
-print(&quot;Grade is B&quot;)
-elif per&gt;=50 and per&lt;55:
-print(&quot;Grade is C&quot;)
+print("The aggregate(total)=",total)
+print("Percentage =",per)
+if per>=90:
+    print("Grade is O")
+elif per>=80 and per<90:
+    print("Grade is A+")
+elif per>=70 and per<80:
+    print("Grade is A")
+elif per>=60 and per<70:
+    print("Grade is B+")
+elif per>=55 and per<60:
+    print("Grade is B")
+elif per>=50 and per<55:
+    print("Grade is C")
 else:
-print(&quot;fail&quot;)
+    print("fail")
+
