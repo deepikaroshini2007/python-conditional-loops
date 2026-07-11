@@ -1,9 +1,9 @@
-salary=int(input(&quot;Enter the salary of an employee :&quot;))
-
-leave=int(input(&quot;Enter no of days the employee was absent :&quot;))
-if leave&gt;=0 and leave&lt;=2:
-print(&quot;Employee salary =&quot;,salary)
-elif leave&gt;2:
-print(&quot;Employee salary =&quot;,salary-((leave-2)*500))
+salary=int(input("Enter the salary of an employee :"))
+leave=int(input("Enter no of days the employee was absent :"))
+if leave>=0 and leave<=2:
+   print("Employee salary =",salary)
+elif leave>2:
+   print("Employee salary =",salary-((leave-2)*500))
 else:
-print(&quot;Invalid leave&quot;)
+   print("Invalid leave")
+
